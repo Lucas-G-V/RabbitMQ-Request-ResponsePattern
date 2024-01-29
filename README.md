@@ -16,24 +16,10 @@ Este exemplo consiste em dois aplicativos de console simples: um servidor e um c
 ## Uso
 
 1. Abra o projeto em sua IDE preferida.
-2. Abra dois terminais ou janelas de prompt de comando.
-3. No primeiro terminal, navegue até a pasta do projeto e execute o servidor:
-
-    ```bash
-    dotnet run --project EasyNetQRpcServer
-    ```
-
-4. No segundo terminal, navegue até a mesma pasta do projeto e execute o cliente:
-
-    ```bash
-    dotnet run --project EasyNetQRpcClient
-    ```
-
-5. O cliente solicitará uma mensagem de entrada. Digite uma mensagem e pressione Enter para enviá-la ao servidor. O servidor responderá com uma mensagem de confirmação.
-
-6. Repita o passo 5 conforme necessário para enviar mais solicitações.
-
-7. Para encerrar o servidor ou cliente, pressione Ctrl + C no terminal correspondente.
+2. Execute os dois projetos
+3. O cliente solicitará uma mensagem de entrada. Digite uma mensagem e pressione Enter para enviá-la ao servidor. O servidor responderá com uma mensagem de confirmação.
+4. Repita o passo 5 conforme necessário para enviar mais solicitações.
+5. Para encerrar o servidor ou cliente, pressione Ctrl + C no terminal correspondente.
 
 ## Estrutura do Projeto
 
